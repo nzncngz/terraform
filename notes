@@ -1,0 +1,8 @@
+#örnegin bir dosya içerisinde degişkenler arasında fazladan boşluk bırakırsanız terraform bunu syntax hatası olarak görür.
+terraform  fmt komutunu çalıştırınca bu hataları sizler için düzenler ve hangi dosyada bu işlemi yaptığını çıktıda verir.
+
+#yes veya no sorularını atlayabilmek için
+
+terraform apply -auto-approve komutu çalıştırılmalıdır.
+
+terrform stateleri depolayan bir yazılımdır yapılan işlemleri hafızada tutar böylelikle adım adım neler yaptığınızı terraform.state dosyasından kontrol edebilirsiniz.
