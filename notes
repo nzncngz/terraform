@@ -6,3 +6,8 @@ terraform  fmt komutunu çalıştırınca bu hataları sizler için düzenler ve
 terraform apply -auto-approve komutu çalıştırılmalıdır.
 
 terrform stateleri depolayan bir yazılımdır yapılan işlemleri hafızada tutar böylelikle adım adım neler yaptığınızı terraform.state dosyasından kontrol edebilirsiniz.
+
+#terraform dosyalarında hata olup olmadığının kontrolü
+
+terraform validate
+
